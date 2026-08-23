@@ -35,3 +35,4 @@ tqdm==4.70.0
 tzdata==2026.3
 urllib3==2.7.0
 xgboost==3.4.1
+joblib==1.5.3
