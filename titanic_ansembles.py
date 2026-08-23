@@ -1,4 +1,5 @@
 import numpy as np
+import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.compose import ColumnTransformer
@@ -223,7 +224,8 @@ print("- Построена матрица ошибок")
 
 
 
-
+#12. СОХРАНЕНИЕ МОДЕЛИ
+joblib.dump(pipeline1, 'titanic_voting_model.pkl')
 
 
 
